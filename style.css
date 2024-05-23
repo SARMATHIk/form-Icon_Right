@@ -94,17 +94,21 @@ h3 {
   font-size: large;
   padding-left: 20px;
 }
-.fa-user {
-  position: absolute;
-  margin-left: 140px;
-  padding: 10px 10px;
-  border-left: 2px solid black;
+.rightIcon {
+  position: relative;
+  margin: 15px 20px;
 }
-input {
-  background-color: #f92b73;
+.rightIcon input {
+  /* background-color: #f92b73;
   width: auto;
-  height: auto;
-  padding: 10px 10px;
+  height: auto; */
+  margin: 0 0 20px;
+  padding: 6px 20px;
+}
+.rightIcon i {
+  position: absolute;
+  top: 15%;
+  right: 10px;
 }
 ::placeholder {
   color: #000000;
